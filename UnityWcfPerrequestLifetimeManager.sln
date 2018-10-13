@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityWcfPerrequestLifetimeManager", "UnityWcfPerrequestLifetimeManager\UnityWcfPerrequestLifetimeManager.csproj", "{88A7D7A2-911F-423D-B914-4A3CC25059CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88A7D7A2-911F-423D-B914-4A3CC25059CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A7D7A2-911F-423D-B914-4A3CC25059CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A7D7A2-911F-423D-B914-4A3CC25059CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A7D7A2-911F-423D-B914-4A3CC25059CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CF191FB-4B54-4505-83E1-71E2A5CAC06C}
+	EndGlobalSection
+EndGlobal
