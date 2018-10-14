@@ -1,20 +1,27 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Package</id>
+    <id>PerrequestLifetimeManager</id>
     <version>1.0.0</version>
     <authors>p.rajarathnam</authors>
     <owners>p.rajarathnam</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <licenseUrl>https://github.com/pragashonlink/Unity.Wcf.PerrequestLifetimeManager</licenseUrl>
+    <projectUrl>https://github.com/pragashonlink/Unity.Wcf.PerrequestLifetimeManager</projectUrl>
+    <iconUrl>https://github.com/pragashonlink/Unity.Wcf.PerrequestLifetimeManager</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Package description</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>PerrequestLifetimeManager Package description</description>
+    <releaseNotes>Use this library if you want to adapt per request based lifetime manager using Unity.Wcf</releaseNotes>
     <copyright>Copyright 2018</copyright>
-    <tags>Tag1 Tag2</tags>
+    <tags>Unity.Wcf, WCF, Lifetimemanager, OperationContext</tags>
     <dependencies>
-      <dependency id="SampleDependency" version="1.0" />
+      <dependency id="Unity.Abstractions" version="3.3.0" />
+	  <dependency id="Unity.Container" version="5.8.6" />
+	  <dependency id="Unity.Wcf" version="4.0.0" />
     </dependencies>
   </metadata>
+  
+  <files>
+    <file src="UnityWcfPerrequestLifetimeManager\bin\Debug\*.dll" target="lib\net45" />
+  </files>
+  
 </package>
