@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>PerrequestLifetimeManager</id>
+    <id>Unity.Wcf.OperationContextLifetimeManager</id>
     <version>1.0.0</version>
-    <authors>p.rajarathnam</authors>
-    <owners>p.rajarathnam</owners>
-    <licenseUrl>https://github.com/pragashonlink/Unity.Wcf.PerrequestLifetimeManager</licenseUrl>
+    <authors>Pragash</authors>
+    <owners>Pragash</owners>
+    <licenseUrl>https://github.com/pragashonlink/Unity.Wcf.PerrequestLifetimeManager/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/pragashonlink/Unity.Wcf.PerrequestLifetimeManager</projectUrl>
     <iconUrl>https://github.com/pragashonlink/Unity.Wcf.PerrequestLifetimeManager</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>PerrequestLifetimeManager Package description</description>
-    <releaseNotes>Use this library if you want to adapt per request based lifetime manager using Unity.Wcf</releaseNotes>
+    <releaseNotes>This library allows your WCF application to adapt per request based lifetime manager using Unity.Wcf</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>Unity.Wcf, WCF, Lifetimemanager, OperationContext</tags>
     <dependencies>
